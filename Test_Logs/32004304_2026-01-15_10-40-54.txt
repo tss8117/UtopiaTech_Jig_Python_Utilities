@@ -1,0 +1,116 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32004304
+MAC ID      : C022F1801418
+Date        : 2026-01-15
+Start Time  : 10:40:54
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[10:40:54.942] Programming bootloader... | INFO
+[10:40:55.951] Programming bootloader... | INFO
+[10:40:55.951] INFO  | Programming BOOTLOADER...
+[10:40:56.288] SUCCESS | Success programming BOOTLOADER
+[10:40:56.294] INFO  | Programming BOOTLOADER...
+[10:40:56.322] Resetting DUT... | INFO
+[10:40:58.356] Programming test firmware... | INFO
+[10:40:58.435] INFO  | Programming TEST...
+[10:41:01.862] SUCCESS | Success programming TEST
+[10:41:01.978] Resetting DUT... | INFO
+[10:41:16.372] ERROR | Failed programming BOOTLOADER: Programming timeout
+[10:42:44.443] INFO  | Results received: Clock=32773Hz, Peri=0x01FF, Dig=0x000007FFFFFFFFFF, Relay=0x1FFF
+
+--------------------------------------------------------------------------------
+TEST RESULTS (Combined Frame)
+--------------------------------------------------------------------------------
+[10:42:44.443] INFO  | Clock Frequency: 32773 Hz
+[10:42:44.443] TEST  | EEPROM........................ PASS
+[10:42:44.443] TEST  | RTC........................... PASS
+[10:42:44.443] TEST  | RTC Battery................... PASS
+[10:42:44.443] TEST  | Battery Voltage............... PASS
+[10:42:44.444] TEST  | Temp. Sensor.................. PASS
+[10:42:44.444] TEST  | Smoke Zone.................... PASS
+[10:42:44.444] TEST  | GPIO.......................... PASS
+[10:42:44.444] TEST  | W5500......................... PASS
+[10:42:44.444] TEST  | Clock Frequency............... PASS
+[10:42:44.444] TEST  | Zone 1........................ PASS
+[10:42:44.444] TEST  | Zone 2........................ PASS
+[10:42:44.444] TEST  | Zone 3........................ PASS
+[10:42:44.445] TEST  | Zone 4........................ PASS
+[10:42:44.445] TEST  | Zone 5........................ PASS
+[10:42:44.445] TEST  | Zone 6........................ PASS
+[10:42:44.445] TEST  | Zone 7........................ PASS
+[10:42:44.445] TEST  | Zone 8........................ PASS
+[10:42:44.445] TEST  | Zone 9........................ PASS
+[10:42:44.445] TEST  | Zone 10....................... PASS
+[10:42:44.445] TEST  | Zone 11....................... PASS
+[10:42:44.445] TEST  | Zone 12....................... PASS
+[10:42:44.445] TEST  | Zone 13....................... PASS
+[10:42:44.445] TEST  | Zone 14....................... PASS
+[10:42:44.446] TEST  | Zone 15....................... PASS
+[10:42:44.446] TEST  | Zone 16....................... PASS
+[10:42:44.446] TEST  | Zone 17....................... PASS
+[10:42:44.446] TEST  | Zone 18....................... PASS
+[10:42:44.446] TEST  | Zone 19....................... PASS
+[10:42:44.446] TEST  | Zone 20....................... PASS
+[10:42:44.446] TEST  | Zone 21....................... PASS
+[10:42:44.446] TEST  | Zone 22....................... PASS
+[10:42:44.446] TEST  | Zone 23....................... PASS
+[10:42:44.446] TEST  | Zone 24....................... PASS
+[10:42:44.446] TEST  | Zone 25....................... PASS
+[10:42:44.447] TEST  | Zone 26....................... PASS
+[10:42:44.447] TEST  | Zone 27....................... PASS
+[10:42:44.447] TEST  | Zone 28....................... PASS
+[10:42:44.447] TEST  | Zone 29....................... PASS
+[10:42:44.447] TEST  | Zone 30....................... PASS
+[10:42:44.447] TEST  | Zone 31....................... PASS
+[10:42:44.447] TEST  | Zone 32....................... PASS
+[10:42:44.447] TEST  | Zone 33....................... PASS
+[10:42:44.447] TEST  | Zone 34....................... PASS
+[10:42:44.447] TEST  | Zone 35....................... PASS
+[10:42:44.448] TEST  | Zone 36....................... PASS
+[10:42:44.448] TEST  | ZONE 1 DET.................... PASS
+[10:42:44.448] TEST  | ZONE 2 DET.................... PASS
+[10:42:44.448] TEST  | ZONE 3 DET.................... PASS
+[10:42:44.448] TEST  | Analog 3V3.................... PASS
+[10:42:44.448] TEST  | Silence Key................... PASS
+[10:42:44.448] TEST  | ADE IRQ....................... PASS
+[10:42:44.448] TEST  | AC DETECT..................... PASS
+[10:42:44.448] TEST  | Relay 1....................... PASS
+[10:42:44.449] TEST  | Relay 2....................... PASS
+[10:42:44.449] TEST  | Relay 3....................... PASS
+[10:42:44.449] TEST  | Relay 4....................... PASS
+[10:42:44.449] TEST  | Relay 5....................... PASS
+[10:42:44.449] TEST  | Relay 6....................... PASS
+[10:42:44.449] TEST  | Relay 7....................... PASS
+[10:42:44.449] TEST  | Relay 8....................... PASS
+[10:42:44.449] TEST  | Relay 9....................... PASS
+[10:42:44.449] TEST  | Relay 10...................... PASS
+[10:42:44.449] TEST  | Relay 11...................... PASS
+[10:42:44.449] TEST  | Relay 12...................... PASS
+[10:42:44.450] TEST  | Relay 13...................... PASS
+[10:42:44.622] SUCCESS | [Attempt 1/2] Testing PASSED
+[10:42:44.623] Sending configuration to DUT... | INFO
+[10:42:46.626] Config sent: Serial=32004304, RTC=1768453964 | INFO
+[10:42:48.518] SUCCESS | Config verified. RTC set to: 2026-01-15 10:42:45
+[10:42:48.711] Programming final firmware... | INFO
+[10:42:48.718] Programming final firmware... | INFO
+[10:42:48.978] INFO  | Programming FINAL...
+[10:42:48.987] INFO  | Programming FINAL...
+[10:42:54.813] SUCCESS | Success programming FINAL
+[10:42:54.817] SUCCESS | Success programming FINAL
+[10:42:54.936] TEST COMPLETED SUCCESSFULLY | SUCCESS
+
+================================================================================
+TEST SUMMARY
+================================================================================
+Total Tests    : 65
+Passed         : 65
+Failed         : 0
+Retries Used   : 1
+Final Result   : PASS
+End Time       : 10:42:54
+Duration       : 0:02:00.499828
+================================================================================

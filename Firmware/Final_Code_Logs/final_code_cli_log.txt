@@ -1,0 +1,9 @@
+Open On-Chip Debugger 0.12.0 (2023-01-14-23:37)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Error: Debug adapter doesn't support 'swd' transport
+openocd_final.cfg:2: Error: 
+in procedure 'script' 
+at file "embedded:startup.tcl", line 28
+at file "openocd_final.cfg", line 2

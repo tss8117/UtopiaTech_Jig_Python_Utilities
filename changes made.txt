@@ -1,0 +1,17 @@
+1. changes made in main_window.py   - removed retest logic
+2. changes made in developer_frame.py  - removed retest logic
+3. changes made in state_machine.py    - made changes for console logging
+4. removed the programming retest thing by reducing the retries to 1
+5. added auto connect rs485
+6. added reset button 
+7. added full flash erase in bootloader  template
+8. Reduced Boot time of MAIn board in testcode by commenting 
+-memory_init(&hi2c1);
+-serial_no_set_in_flash(present_config.serial_no);
+
+
+
+need to see the test code also
+-internal peripherals retry
+-internal individual zone retry
+-internal individual relay retry

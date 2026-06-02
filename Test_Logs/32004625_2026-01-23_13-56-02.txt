@@ -1,0 +1,21 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32004625
+MAC ID      : C022F1801559
+Date        : 2026-01-23
+Start Time  : 13:56:02
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[13:56:03.740] Programming bootloader... | INFO
+[13:56:04.079] INFO  | Programming BOOTLOADER...
+[13:56:24.160] ERROR | Failed programming BOOTLOADER: Programming timeout
+[13:56:24.239] Bootloader programming failed, retry attempt 1/2 | WARNING
+[13:56:25.241] Programming bootloader... | INFO
+[13:56:25.599] INFO  | Programming BOOTLOADER...
+[13:56:45.655] ERROR | Failed programming BOOTLOADER: Programming timeout
+[13:56:45.773] Bootloader programming failed after 2 attempts | ERROR
+[13:56:45.835] Test failed: Bootloader programming failed after max retries | ERROR
+[13:58:34.286] SUCCESS | Start Programming Received - Beginning Test

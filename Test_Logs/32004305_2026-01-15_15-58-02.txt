@@ -1,0 +1,19 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32004305
+MAC ID      : C022F1801419
+Date        : 2026-01-15
+Start Time  : 15:58:02
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[15:58:03.189] Programming bootloader... | INFO
+[15:58:04.104] INFO  | Programming BOOTLOADER...
+[15:58:04.533] SUCCESS | Success programming BOOTLOADER
+[15:58:04.562] Resetting DUT... | INFO
+[15:58:06.637] Programming test firmware... | INFO
+[15:58:06.731] INFO  | Programming TEST...
+[15:58:10.205] SUCCESS | Success programming TEST
+[15:58:10.328] Resetting DUT... | INFO

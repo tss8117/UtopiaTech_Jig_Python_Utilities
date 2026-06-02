@@ -1,0 +1,128 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32004807
+MAC ID      : C022F180160F
+Date        : 2026-02-14
+Start Time  : 12:23:13
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[12:23:14.105] Programming bootloader... | INFO
+[12:23:15.269] Programming bootloader... | INFO
+[12:23:15.269] INFO  | Programming BOOTLOADER...
+[12:23:15.272] Programming bootloader... | INFO
+[12:23:15.439] SUCCESS | Success programming BOOTLOADER
+[12:23:15.474] Resetting DUT... | INFO
+[12:23:15.612] INFO  | Programming BOOTLOADER...
+[12:23:15.617] INFO  | Programming BOOTLOADER...
+[12:23:16.596] SUCCESS | Success programming BOOTLOADER
+[12:23:16.598] SUCCESS | Success programming BOOTLOADER
+[12:23:16.642] Resetting DUT... | INFO
+[12:23:16.643] Resetting DUT... | INFO
+[12:23:17.536] Programming test firmware... | INFO
+[12:23:17.540] Programming test firmware... | INFO
+[12:23:17.549] INFO  | Programming TEST...
+[12:23:17.591] INFO  | Programming TEST...
+[12:23:21.163] SUCCESS | Success programming TEST
+[12:23:21.169] SUCCESS | Success programming TEST
+[12:23:21.172] Resetting DUT... | INFO
+[12:23:21.173] Resetting DUT... | INFO
+[12:25:02.582] INFO  | Results received: Clock=32786Hz, Peri=0x01FF, Dig=0x000007FFFFFFFFFF, Relay=0x1FFF
+
+--------------------------------------------------------------------------------
+TEST RESULTS (Combined Frame)
+--------------------------------------------------------------------------------
+[12:25:02.582] INFO  | Clock Frequency: 32786 Hz
+[12:25:02.583] TEST  | EEPROM........................ PASS
+[12:25:02.583] TEST  | RTC........................... PASS
+[12:25:02.583] TEST  | RTC Battery................... PASS
+[12:25:02.583] TEST  | Battery Voltage............... PASS
+[12:25:02.583] TEST  | Temp. Sensor.................. PASS
+[12:25:02.583] TEST  | Smoke Zone.................... PASS
+[12:25:02.583] TEST  | GPIO.......................... PASS
+[12:25:02.583] TEST  | W5500......................... PASS
+[12:25:02.583] TEST  | Clock Frequency............... PASS
+[12:25:02.584] TEST  | Zone 1........................ PASS
+[12:25:02.584] TEST  | Zone 2........................ PASS
+[12:25:02.584] TEST  | Zone 3........................ PASS
+[12:25:02.584] TEST  | Zone 4........................ PASS
+[12:25:02.584] TEST  | Zone 5........................ PASS
+[12:25:02.584] TEST  | Zone 6........................ PASS
+[12:25:02.584] TEST  | Zone 7........................ PASS
+[12:25:02.584] TEST  | Zone 8........................ PASS
+[12:25:02.585] TEST  | Zone 9........................ PASS
+[12:25:02.585] TEST  | Zone 10....................... PASS
+[12:25:02.585] TEST  | Zone 11....................... PASS
+[12:25:02.585] TEST  | Zone 12....................... PASS
+[12:25:02.585] TEST  | Zone 13....................... PASS
+[12:25:02.585] TEST  | Zone 14....................... PASS
+[12:25:02.585] TEST  | Zone 15....................... PASS
+[12:25:02.585] TEST  | Zone 16....................... PASS
+[12:25:02.585] TEST  | Zone 17....................... PASS
+[12:25:02.585] TEST  | Zone 18....................... PASS
+[12:25:02.586] TEST  | Zone 19....................... PASS
+[12:25:02.586] TEST  | Zone 20....................... PASS
+[12:25:02.586] TEST  | Zone 21....................... PASS
+[12:25:02.586] TEST  | Zone 22....................... PASS
+[12:25:02.586] TEST  | Zone 23....................... PASS
+[12:25:02.586] TEST  | Zone 24....................... PASS
+[12:25:02.586] TEST  | Zone 25....................... PASS
+[12:25:02.586] TEST  | Zone 26....................... PASS
+[12:25:02.586] TEST  | Zone 27....................... PASS
+[12:25:02.587] TEST  | Zone 28....................... PASS
+[12:25:02.587] TEST  | Zone 29....................... PASS
+[12:25:02.587] TEST  | Zone 30....................... PASS
+[12:25:02.587] TEST  | Zone 31....................... PASS
+[12:25:02.587] TEST  | Zone 32....................... PASS
+[12:25:02.587] TEST  | Zone 33....................... PASS
+[12:25:02.587] TEST  | Zone 34....................... PASS
+[12:25:02.587] TEST  | Zone 35....................... PASS
+[12:25:02.587] TEST  | Zone 36....................... PASS
+[12:25:02.587] TEST  | ZONE 1 DET.................... PASS
+[12:25:02.587] TEST  | ZONE 2 DET.................... PASS
+[12:25:02.588] TEST  | ZONE 3 DET.................... PASS
+[12:25:02.588] TEST  | Analog 3V3.................... PASS
+[12:25:02.588] TEST  | Silence Key................... PASS
+[12:25:02.588] TEST  | ADE IRQ....................... PASS
+[12:25:02.588] TEST  | AC DETECT..................... PASS
+[12:25:02.588] TEST  | Relay 1 (K3).................. PASS
+[12:25:02.588] TEST  | Relay 2 (K5).................. PASS
+[12:25:02.588] TEST  | Relay 3 (K1).................. PASS
+[12:25:02.588] TEST  | Relay 4 (K4).................. PASS
+[12:25:02.588] TEST  | Relay 5 (K2).................. PASS
+[12:25:02.588] TEST  | Relay 6 (Q3).................. PASS
+[12:25:02.588] TEST  | Relay 7 (Q2).................. PASS
+[12:25:02.588] TEST  | Relay 8 (Q5).................. PASS
+[12:25:02.588] TEST  | Relay 9 (U6-18)............... PASS
+[12:25:02.588] TEST  | Relay 10 (Q6)................. PASS
+[12:25:02.589] TEST  | Relay 11 (U6-12).............. PASS
+[12:25:02.589] TEST  | Relay 12 (U6-13).............. PASS
+[12:25:02.589] TEST  | Relay 13 (U5-13).............. PASS
+[12:25:02.773] SUCCESS | [Attempt 1/1] Testing PASSED
+[12:25:02.775] Sending configuration to DUT... | INFO
+[12:25:04.777] Config sent: Serial=32004807, RTC=1771052102 | INFO
+[12:25:06.649] SUCCESS | Config verified. RTC set to: 2026-02-14 12:25:03
+[12:25:06.910] Programming final firmware... | INFO
+[12:25:06.932] Programming final firmware... | INFO
+[12:25:06.932] Programming final firmware... | INFO
+[12:25:07.019] INFO  | Programming FINAL...
+[12:25:07.019] INFO  | Programming FINAL...
+[12:25:07.020] INFO  | Programming FINAL...
+[12:25:13.258] SUCCESS | Success programming FINAL
+[12:25:13.259] SUCCESS | Success programming FINAL
+[12:25:13.259] SUCCESS | Success programming FINAL
+[12:25:13.301] TEST COMPLETED SUCCESSFULLY | SUCCESS
+
+================================================================================
+TEST SUMMARY
+================================================================================
+Total Tests    : 65
+Passed         : 65
+Failed         : 0
+Retries Used   : 1
+Final Result   : PASS
+End Time       : 12:25:13
+Duration       : 0:01:59.704582
+================================================================================

@@ -1,0 +1,101 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32004983
+MAC ID      : C022F18016BF
+Date        : 2026-02-17
+Start Time  : 12:04:56
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[12:04:58.076] INFO  | Programming bootloader...
+[12:04:58.425] INFO  | Programming BOOTLOADER...
+[12:04:59.406] SUCCESS | Success programming BOOTLOADER
+[12:04:59.442] INFO  | Programming test firmware...
+[12:04:59.533] INFO  | Programming TEST...
+[12:05:19.559] ERROR | Failed programming TEST: Programming timeout
+[12:05:19.689] WARNING | Test firmware programming failed, retry attempt 1/2
+[12:05:20.259] INFO  | Results received: Clock=0Hz, Peri=0x0000, Dig=0x0000000000000000, Relay=0x0000
+
+--------------------------------------------------------------------------------
+TEST RESULTS (Combined Frame)
+--------------------------------------------------------------------------------
+[12:05:20.259] INFO  | Clock Frequency: 0 Hz
+[12:05:20.260] TEST  | EEPROM........................ FAIL
+[12:05:20.260] TEST  | RTC........................... FAIL
+[12:05:20.260] TEST  | RTC Battery................... FAIL
+[12:05:20.260] TEST  | Battery Voltage............... FAIL
+[12:05:20.260] TEST  | Temp. Sensor.................. FAIL
+[12:05:20.260] TEST  | Smoke Zone.................... FAIL
+[12:05:20.260] TEST  | GPIO.......................... FAIL
+[12:05:20.260] TEST  | W5500......................... FAIL
+[12:05:20.260] TEST  | Clock Frequency............... FAIL
+[12:05:20.260] TEST  | Zone 1........................ FAIL
+[12:05:20.260] TEST  | Zone 2........................ FAIL
+[12:05:20.260] TEST  | Zone 3........................ FAIL
+[12:05:20.260] TEST  | Zone 4........................ FAIL
+[12:05:20.260] TEST  | Zone 5........................ FAIL
+[12:05:20.260] TEST  | Zone 6........................ FAIL
+[12:05:20.260] TEST  | Zone 7........................ FAIL
+[12:05:20.260] TEST  | Zone 8........................ FAIL
+[12:05:20.260] TEST  | Zone 9........................ FAIL
+[12:05:20.261] TEST  | Zone 10....................... FAIL
+[12:05:20.261] TEST  | Zone 11....................... FAIL
+[12:05:20.261] TEST  | Zone 12....................... FAIL
+[12:05:20.261] TEST  | Zone 13....................... FAIL
+[12:05:20.261] TEST  | Zone 14....................... FAIL
+[12:05:20.261] TEST  | Zone 15....................... FAIL
+[12:05:20.261] TEST  | Zone 16....................... FAIL
+[12:05:20.261] TEST  | Zone 17....................... FAIL
+[12:05:20.261] TEST  | Zone 18....................... FAIL
+[12:05:20.261] TEST  | Zone 19....................... FAIL
+[12:05:20.261] TEST  | Zone 20....................... FAIL
+[12:05:20.261] TEST  | Zone 21....................... FAIL
+[12:05:20.261] TEST  | Zone 22....................... FAIL
+[12:05:20.261] TEST  | Zone 23....................... FAIL
+[12:05:20.261] TEST  | Zone 24....................... FAIL
+[12:05:20.261] TEST  | Zone 25....................... FAIL
+[12:05:20.261] TEST  | Zone 26....................... FAIL
+[12:05:20.261] TEST  | Zone 27....................... FAIL
+[12:05:20.261] TEST  | Zone 28....................... FAIL
+[12:05:20.261] TEST  | Zone 29....................... FAIL
+[12:05:20.261] TEST  | Zone 30....................... FAIL
+[12:05:20.261] TEST  | Zone 31....................... FAIL
+[12:05:20.261] TEST  | Zone 32....................... FAIL
+[12:05:20.261] TEST  | Zone 33....................... FAIL
+[12:05:20.261] TEST  | Zone 34....................... FAIL
+[12:05:20.261] TEST  | Zone 35....................... FAIL
+[12:05:20.261] TEST  | Zone 36....................... FAIL
+[12:05:20.262] TEST  | ZONE 1 DET.................... FAIL
+[12:05:20.262] TEST  | ZONE 2 DET.................... FAIL
+[12:05:20.262] TEST  | ZONE 3 DET.................... FAIL
+[12:05:20.262] TEST  | Analog 3V3.................... FAIL
+[12:05:20.262] TEST  | Silence Key................... FAIL
+[12:05:20.262] TEST  | ADE IRQ....................... FAIL
+[12:05:20.262] TEST  | AC DETECT..................... FAIL
+[12:05:20.262] TEST  | Relay 1 (K3).................. FAIL
+[12:05:20.262] TEST  | Relay 2 (K5).................. FAIL
+[12:05:20.262] TEST  | Relay 3 (K1).................. FAIL
+[12:05:20.262] TEST  | Relay 4 (K4).................. FAIL
+[12:05:20.262] TEST  | Relay 5 (K2).................. FAIL
+[12:05:20.262] TEST  | Relay 6 (Q3).................. FAIL
+[12:05:20.262] TEST  | Relay 7 (Q2).................. FAIL
+[12:05:20.262] TEST  | Relay 8 (Q5).................. FAIL
+[12:05:20.262] TEST  | Relay 9 (U6-18)............... FAIL
+[12:05:20.262] TEST  | Relay 10 (Q6)................. FAIL
+[12:05:20.262] TEST  | Relay 11 (U6-12).............. FAIL
+[12:05:20.262] TEST  | Relay 12 (U6-13).............. FAIL
+[12:05:20.262] TEST  | Relay 13 (U5-13).............. FAIL
+[12:05:20.477] ERROR | [Attempt 1/1] Peripheral Failures: ['EEPROM', 'RTC', 'RTC Battery', 'Battery Voltage', 'Temp. Sensor', 'Smoke Zone', 'GPIO', 'W5500', 'Clock Frequency']
+[12:05:20.479] ERROR | [Attempt 1/1] Digital Input Failures: ['Zone 1', 'Zone 2', 'Zone 3', 'Zone 4', 'Zone 5', 'Zone 6', 'Zone 7', 'Zone 8', 'Zone 9', 'Zone 10', 'Zone 11', 'Zone 12', 'Zone 13', 'Zone 14', 'Zone 15', 'Zone 16', 'Zone 17', 'Zone 18', 'Zone 19', 'Zone 20', 'Zone 21', 'Zone 22', 'Zone 23', 'Zone 24', 'Zone 25', 'Zone 26', 'Zone 27', 'Zone 28', 'Zone 29', 'Zone 30', 'Zone 31', 'Zone 32', 'Zone 33', 'Zone 34', 'Zone 35', 'Zone 36', 'ZONE 1 DET', 'ZONE 2 DET', 'ZONE 3 DET', 'Analog 3V3', 'Silence Key', 'ADE IRQ', 'AC DETECT']
+[12:05:20.480] ERROR | [Attempt 1/1] Relay Failures: ['Relay 1 (K3)', 'Relay 2 (K5)', 'Relay 3 (K1)', 'Relay 4 (K4)', 'Relay 5 (K2)', 'Relay 6 (Q3)', 'Relay 7 (Q2)', 'Relay 8 (Q5)', 'Relay 9 (U6-18)', 'Relay 10 (Q6)', 'Relay 11 (U6-12)', 'Relay 12 (U6-13)', 'Relay 13 (U5-13)']
+[12:05:20.482] INFO  | Initiating retry (1/1): ['PERIPHERALS', 'DIGITAL_INPUTS', 'RELAYS']
+[12:05:21.575] ERROR | Communication Failed (error: 1)
+[12:05:21.577] INFO  | Programming test firmware...
+[12:05:22.626] INFO  | Programming TEST...
+[12:05:22.627] INFO  | JIG acknowledged retest
+[12:05:22.751] ERROR | Test failed: Communication failed
+[12:05:25.162] SUCCESS | Success programming TEST
+[12:05:47.317] SUCCESS | Start Programming Received - Beginning Test
+[12:05:47.323] INFO  | Serial No: 32004983

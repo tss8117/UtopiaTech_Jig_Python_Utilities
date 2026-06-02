@@ -1,0 +1,114 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32004729
+MAC ID      : C022F18015C1
+Date        : 2026-02-05
+Start Time  : 11:31:42
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[11:31:43.958] Programming bootloader... | INFO
+[11:31:44.284] INFO  | Programming BOOTLOADER...
+[11:31:45.297] SUCCESS | Success programming BOOTLOADER
+[11:31:45.314] Resetting DUT... | INFO
+[11:31:47.415] Programming test firmware... | INFO
+[11:31:47.475] INFO  | Programming TEST...
+[11:31:50.991] SUCCESS | Success programming TEST
+[11:31:51.112] Resetting DUT... | INFO
+[11:35:45.090] INFO  | Results received: Clock=32779Hz, Peri=0x01FF, Dig=0x000007FFFFFFFFFF, Relay=0x1FFF
+
+--------------------------------------------------------------------------------
+TEST RESULTS (Combined Frame)
+--------------------------------------------------------------------------------
+[11:35:45.091] INFO  | Clock Frequency: 32779 Hz
+[11:35:45.091] TEST  | EEPROM........................ PASS
+[11:35:45.091] TEST  | RTC........................... PASS
+[11:35:45.091] TEST  | RTC Battery................... PASS
+[11:35:45.091] TEST  | Battery Voltage............... PASS
+[11:35:45.091] TEST  | Temp. Sensor.................. PASS
+[11:35:45.091] TEST  | Smoke Zone.................... PASS
+[11:35:45.091] TEST  | GPIO.......................... PASS
+[11:35:45.091] TEST  | W5500......................... PASS
+[11:35:45.091] TEST  | Clock Frequency............... PASS
+[11:35:45.092] TEST  | Zone 1........................ PASS
+[11:35:45.092] TEST  | Zone 2........................ PASS
+[11:35:45.092] TEST  | Zone 3........................ PASS
+[11:35:45.092] TEST  | Zone 4........................ PASS
+[11:35:45.092] TEST  | Zone 5........................ PASS
+[11:35:45.092] TEST  | Zone 6........................ PASS
+[11:35:45.092] TEST  | Zone 7........................ PASS
+[11:35:45.092] TEST  | Zone 8........................ PASS
+[11:35:45.092] TEST  | Zone 9........................ PASS
+[11:35:45.092] TEST  | Zone 10....................... PASS
+[11:35:45.092] TEST  | Zone 11....................... PASS
+[11:35:45.092] TEST  | Zone 12....................... PASS
+[11:35:45.092] TEST  | Zone 13....................... PASS
+[11:35:45.092] TEST  | Zone 14....................... PASS
+[11:35:45.092] TEST  | Zone 15....................... PASS
+[11:35:45.092] TEST  | Zone 16....................... PASS
+[11:35:45.092] TEST  | Zone 17....................... PASS
+[11:35:45.092] TEST  | Zone 18....................... PASS
+[11:35:45.092] TEST  | Zone 19....................... PASS
+[11:35:45.092] TEST  | Zone 20....................... PASS
+[11:35:45.092] TEST  | Zone 21....................... PASS
+[11:35:45.092] TEST  | Zone 22....................... PASS
+[11:35:45.092] TEST  | Zone 23....................... PASS
+[11:35:45.092] TEST  | Zone 24....................... PASS
+[11:35:45.092] TEST  | Zone 25....................... PASS
+[11:35:45.092] TEST  | Zone 26....................... PASS
+[11:35:45.092] TEST  | Zone 27....................... PASS
+[11:35:45.092] TEST  | Zone 28....................... PASS
+[11:35:45.093] TEST  | Zone 29....................... PASS
+[11:35:45.093] TEST  | Zone 30....................... PASS
+[11:35:45.093] TEST  | Zone 31....................... PASS
+[11:35:45.093] TEST  | Zone 32....................... PASS
+[11:35:45.093] TEST  | Zone 33....................... PASS
+[11:35:45.093] TEST  | Zone 34....................... PASS
+[11:35:45.093] TEST  | Zone 35....................... PASS
+[11:35:45.093] TEST  | Zone 36....................... PASS
+[11:35:45.093] TEST  | ZONE 1 DET.................... PASS
+[11:35:45.093] TEST  | ZONE 2 DET.................... PASS
+[11:35:45.093] TEST  | ZONE 3 DET.................... PASS
+[11:35:45.093] TEST  | Analog 3V3.................... PASS
+[11:35:45.093] TEST  | Silence Key................... PASS
+[11:35:45.093] TEST  | ADE IRQ....................... PASS
+[11:35:45.093] TEST  | AC DETECT..................... PASS
+[11:35:45.093] TEST  | Relay 1....................... PASS
+[11:35:45.093] TEST  | Relay 2....................... PASS
+[11:35:45.093] TEST  | Relay 3....................... PASS
+[11:35:45.093] TEST  | Relay 4....................... PASS
+[11:35:45.093] TEST  | Relay 5....................... PASS
+[11:35:45.093] TEST  | Relay 6....................... PASS
+[11:35:45.093] TEST  | Relay 7....................... PASS
+[11:35:45.093] TEST  | Relay 8....................... PASS
+[11:35:45.093] TEST  | Relay 9....................... PASS
+[11:35:45.093] TEST  | Relay 10...................... PASS
+[11:35:45.093] TEST  | Relay 11...................... PASS
+[11:35:45.094] TEST  | Relay 12...................... PASS
+[11:35:45.094] TEST  | Relay 13...................... PASS
+[11:35:45.224] SUCCESS | [Attempt 1/2] Testing PASSED
+[11:35:45.225] Sending configuration to DUT... | INFO
+[11:35:47.229] Config sent: Serial=32004729, RTC=1770271545 | INFO
+[11:35:49.055] SUCCESS | Config verified. RTC set to: 2026-02-05 11:35:46
+[11:35:49.231] Programming final firmware... | INFO
+[11:35:49.512] INFO  | Programming FINAL...
+[11:35:54.322] ERROR | Failed programming FINAL: Programming verification failed
+[11:35:54.381] Final firmware programming failed, retry attempt 1/2 | WARNING
+[11:35:55.419] Programming final firmware... | INFO
+[11:35:55.503] INFO  | Programming FINAL...
+[11:36:01.511] SUCCESS | Success programming FINAL
+[11:36:01.611] TEST COMPLETED SUCCESSFULLY | SUCCESS
+
+================================================================================
+TEST SUMMARY
+================================================================================
+Total Tests    : 65
+Passed         : 65
+Failed         : 0
+Retries Used   : 1
+Final Result   : PASS
+End Time       : 11:36:01
+Duration       : 0:04:19.314215
+================================================================================

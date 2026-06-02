@@ -1,0 +1,115 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32005062
+MAC ID      : C022F180170E
+Date        : 2026-02-18
+Start Time  : 14:37:31
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[14:37:32.712] INFO  | Programming bootloader...
+[14:37:32.716] INFO  | Programming bootloader...
+[14:37:33.115] INFO  | Programming BOOTLOADER...
+[14:37:33.117] INFO  | Programming BOOTLOADER...
+[14:37:34.022] SUCCESS | Success programming BOOTLOADER
+[14:37:34.025] SUCCESS | Success programming BOOTLOADER
+[14:37:34.120] INFO  | Programming test firmware...
+[14:37:34.124] INFO  | Programming test firmware...
+[14:37:34.184] INFO  | Programming TEST...
+[14:37:34.235] INFO  | Programming TEST...
+[14:37:37.643] SUCCESS | Success programming TEST
+[14:37:37.645] SUCCESS | Success programming TEST
+[14:39:18.603] INFO  | Results received: Clock=32788Hz, Peri=0x01FF, Dig=0x000007FFFFFFFFFF, Relay=0x1FFF
+
+--------------------------------------------------------------------------------
+TEST RESULTS (Combined Frame)
+--------------------------------------------------------------------------------
+[14:39:18.604] INFO  | Clock Frequency: 32788 Hz
+[14:39:18.604] TEST  | EEPROM........................ PASS
+[14:39:18.604] TEST  | RTC........................... PASS
+[14:39:18.604] TEST  | RTC Battery................... PASS
+[14:39:18.604] TEST  | Battery Voltage............... PASS
+[14:39:18.604] TEST  | Temp. Sensor.................. PASS
+[14:39:18.604] TEST  | Smoke Zone.................... PASS
+[14:39:18.604] TEST  | GPIO.......................... PASS
+[14:39:18.604] TEST  | W5500......................... PASS
+[14:39:18.605] TEST  | Clock Frequency............... PASS
+[14:39:18.605] TEST  | Zone 1........................ PASS
+[14:39:18.605] TEST  | Zone 2........................ PASS
+[14:39:18.606] TEST  | Zone 3........................ PASS
+[14:39:18.606] TEST  | Zone 4........................ PASS
+[14:39:18.606] TEST  | Zone 5........................ PASS
+[14:39:18.606] TEST  | Zone 6........................ PASS
+[14:39:18.606] TEST  | Zone 7........................ PASS
+[14:39:18.606] TEST  | Zone 8........................ PASS
+[14:39:18.606] TEST  | Zone 9........................ PASS
+[14:39:18.606] TEST  | Zone 10....................... PASS
+[14:39:18.607] TEST  | Zone 11....................... PASS
+[14:39:18.607] TEST  | Zone 12....................... PASS
+[14:39:18.607] TEST  | Zone 13....................... PASS
+[14:39:18.607] TEST  | Zone 14....................... PASS
+[14:39:18.607] TEST  | Zone 15....................... PASS
+[14:39:18.607] TEST  | Zone 16....................... PASS
+[14:39:18.607] TEST  | Zone 17....................... PASS
+[14:39:18.607] TEST  | Zone 18....................... PASS
+[14:39:18.607] TEST  | Zone 19....................... PASS
+[14:39:18.607] TEST  | Zone 20....................... PASS
+[14:39:18.607] TEST  | Zone 21....................... PASS
+[14:39:18.608] TEST  | Zone 22....................... PASS
+[14:39:18.608] TEST  | Zone 23....................... PASS
+[14:39:18.608] TEST  | Zone 24....................... PASS
+[14:39:18.608] TEST  | Zone 25....................... PASS
+[14:39:18.608] TEST  | Zone 26....................... PASS
+[14:39:18.608] TEST  | Zone 27....................... PASS
+[14:39:18.608] TEST  | Zone 28....................... PASS
+[14:39:18.608] TEST  | Zone 29....................... PASS
+[14:39:18.608] TEST  | Zone 30....................... PASS
+[14:39:18.608] TEST  | Zone 31....................... PASS
+[14:39:18.609] TEST  | Zone 32....................... PASS
+[14:39:18.609] TEST  | Zone 33....................... PASS
+[14:39:18.609] TEST  | Zone 34....................... PASS
+[14:39:18.609] TEST  | Zone 35....................... PASS
+[14:39:18.609] TEST  | Zone 36....................... PASS
+[14:39:18.609] TEST  | ZONE 1 DET.................... PASS
+[14:39:18.609] TEST  | ZONE 2 DET.................... PASS
+[14:39:18.609] TEST  | ZONE 3 DET.................... PASS
+[14:39:18.609] TEST  | Analog 3V3.................... PASS
+[14:39:18.609] TEST  | Silence Key................... PASS
+[14:39:18.609] TEST  | ADE IRQ....................... PASS
+[14:39:18.610] TEST  | AC DETECT..................... PASS
+[14:39:18.610] TEST  | Relay 1 (K3).................. PASS
+[14:39:18.610] TEST  | Relay 2 (K5).................. PASS
+[14:39:18.610] TEST  | Relay 3 (K1).................. PASS
+[14:39:18.610] TEST  | Relay 4 (K4).................. PASS
+[14:39:18.610] TEST  | Relay 5 (K2).................. PASS
+[14:39:18.610] TEST  | Relay 6 (Q3).................. PASS
+[14:39:18.610] TEST  | Relay 7 (Q2).................. PASS
+[14:39:18.610] TEST  | Relay 8 (Q5).................. PASS
+[14:39:18.610] TEST  | Relay 9 (U6-18)............... PASS
+[14:39:18.610] TEST  | Relay 10 (Q6)................. PASS
+[14:39:18.610] TEST  | Relay 11 (U6-12).............. PASS
+[14:39:18.611] TEST  | Relay 12 (U6-13).............. PASS
+[14:39:18.611] TEST  | Relay 13 (U5-13).............. PASS
+[14:39:18.795] SUCCESS | [Attempt 1/1] Testing PASSED
+[14:39:18.796] INFO  | Sending configuration to DUT...
+[14:39:20.798] INFO  | Config sent: Serial=32005062, RTC=1771405758
+[14:39:22.622] SUCCESS | Config verified. RTC set to: 2026-02-18 14:39:19
+[14:39:22.669] INFO  | Programming final firmware...
+[14:39:22.962] INFO  | Programming FINAL...
+[14:39:29.006] SUCCESS | Success programming FINAL
+[14:39:29.194] SUCCESS | TEST COMPLETED SUCCESSFULLY
+[14:39:29.200] SUCCESS | TEST COMPLETED SUCCESSFULLY
+
+================================================================================
+TEST SUMMARY
+================================================================================
+Total Tests    : 65
+Passed         : 65
+Failed         : 0
+Retries Used   : 0
+Final Result   : PASS
+End Time       : 14:39:29
+Duration       : 0:01:58.043811
+================================================================================

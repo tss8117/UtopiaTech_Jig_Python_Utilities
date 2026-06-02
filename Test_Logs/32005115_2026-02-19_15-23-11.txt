@@ -1,0 +1,103 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32005115
+MAC ID      : C022F1801743
+Date        : 2026-02-19
+Start Time  : 15:23:11
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[15:23:12.199] INFO  | Programming bootloader...
+[15:23:13.087] INFO  | Programming bootloader...
+[15:23:13.087] INFO  | Programming BOOTLOADER...
+[15:23:13.483] INFO  | Programming BOOTLOADER...
+[15:23:14.088] SUCCESS | Success programming BOOTLOADER
+[15:23:14.214] INFO  | Programming test firmware...
+[15:23:14.219] INFO  | Programming test firmware...
+[15:23:14.277] INFO  | Programming TEST...
+[15:23:14.278] INFO  | Programming TEST...
+[15:23:14.419] SUCCESS | Success programming BOOTLOADER
+[15:23:17.727] SUCCESS | Success programming TEST
+[15:23:17.729] SUCCESS | Success programming TEST
+[15:24:40.415] INFO  | Results received: Clock=32786Hz, Peri=0x01F7, Dig=0x000000000000FFFF, Relay=0x0000
+
+--------------------------------------------------------------------------------
+TEST RESULTS (Combined Frame)
+--------------------------------------------------------------------------------
+[15:24:40.415] INFO  | Clock Frequency: 32786 Hz
+[15:24:40.415] TEST  | EEPROM........................ PASS
+[15:24:40.415] TEST  | RTC........................... PASS
+[15:24:40.415] TEST  | RTC Battery................... PASS
+[15:24:40.415] TEST  | Battery Voltage............... FAIL
+[15:24:40.415] TEST  | Temp. Sensor.................. PASS
+[15:24:40.415] TEST  | Smoke Zone.................... PASS
+[15:24:40.416] TEST  | GPIO.......................... PASS
+[15:24:40.416] TEST  | W5500......................... PASS
+[15:24:40.416] TEST  | Clock Frequency............... PASS
+[15:24:40.416] TEST  | Zone 1........................ PASS
+[15:24:40.416] TEST  | Zone 2........................ PASS
+[15:24:40.416] TEST  | Zone 3........................ PASS
+[15:24:40.416] TEST  | Zone 4........................ PASS
+[15:24:40.416] TEST  | Zone 5........................ PASS
+[15:24:40.416] TEST  | Zone 6........................ PASS
+[15:24:40.416] TEST  | Zone 7........................ PASS
+[15:24:40.416] TEST  | Zone 8........................ PASS
+[15:24:40.416] TEST  | Zone 9........................ PASS
+[15:24:40.416] TEST  | Zone 10....................... PASS
+[15:24:40.416] TEST  | Zone 11....................... PASS
+[15:24:40.416] TEST  | Zone 12....................... PASS
+[15:24:40.416] TEST  | Zone 13....................... PASS
+[15:24:40.416] TEST  | Zone 14....................... PASS
+[15:24:40.416] TEST  | Zone 15....................... PASS
+[15:24:40.416] TEST  | Zone 16....................... PASS
+[15:24:40.416] TEST  | Zone 17....................... FAIL
+[15:24:40.416] TEST  | Zone 18....................... FAIL
+[15:24:40.416] TEST  | Zone 19....................... FAIL
+[15:24:40.416] TEST  | Zone 20....................... FAIL
+[15:24:40.416] TEST  | Zone 21....................... FAIL
+[15:24:40.416] TEST  | Zone 22....................... FAIL
+[15:24:40.416] TEST  | Zone 23....................... FAIL
+[15:24:40.416] TEST  | Zone 24....................... FAIL
+[15:24:40.417] TEST  | Zone 25....................... FAIL
+[15:24:40.417] TEST  | Zone 26....................... FAIL
+[15:24:40.417] TEST  | Zone 27....................... FAIL
+[15:24:40.417] TEST  | Zone 28....................... FAIL
+[15:24:40.417] TEST  | Zone 29....................... FAIL
+[15:24:40.417] TEST  | Zone 30....................... FAIL
+[15:24:40.417] TEST  | Zone 31....................... FAIL
+[15:24:40.417] TEST  | Zone 32....................... FAIL
+[15:24:40.417] TEST  | Zone 33....................... FAIL
+[15:24:40.417] TEST  | Zone 34....................... FAIL
+[15:24:40.417] TEST  | Zone 35....................... FAIL
+[15:24:40.417] TEST  | Zone 36....................... FAIL
+[15:24:40.417] TEST  | ZONE 1 DET.................... FAIL
+[15:24:40.417] TEST  | ZONE 2 DET.................... FAIL
+[15:24:40.417] TEST  | ZONE 3 DET.................... FAIL
+[15:24:40.417] TEST  | Analog 3V3.................... FAIL
+[15:24:40.417] TEST  | Silence Key................... FAIL
+[15:24:40.417] TEST  | ADE IRQ....................... FAIL
+[15:24:40.417] TEST  | AC DETECT..................... FAIL
+[15:24:40.417] TEST  | Relay 1 (K3).................. FAIL
+[15:24:40.417] TEST  | Relay 2 (K5).................. FAIL
+[15:24:40.417] TEST  | Relay 3 (K1).................. FAIL
+[15:24:40.417] TEST  | Relay 4 (K4).................. FAIL
+[15:24:40.417] TEST  | Relay 5 (K2).................. FAIL
+[15:24:40.418] TEST  | Relay 6 (Q3).................. FAIL
+[15:24:40.418] TEST  | Relay 7 (Q2).................. FAIL
+[15:24:40.418] TEST  | Relay 8 (Q5).................. FAIL
+[15:24:40.418] TEST  | Relay 9 (U6-18)............... FAIL
+[15:24:40.418] TEST  | Relay 10 (Q6)................. FAIL
+[15:24:40.418] TEST  | Relay 11 (U6-12).............. FAIL
+[15:24:40.418] TEST  | Relay 12 (U6-13).............. FAIL
+[15:24:40.418] TEST  | Relay 13 (U5-13).............. FAIL
+[15:24:40.526] ERROR | Communication Failed (error: 1)
+[15:24:40.645] ERROR | [Attempt 1/1] Peripheral Failures: ['Battery Voltage']
+[15:24:40.646] ERROR | [Attempt 1/1] Digital Input Failures: ['Zone 17', 'Zone 18', 'Zone 19', 'Zone 20', 'Zone 21', 'Zone 22', 'Zone 23', 'Zone 24', 'Zone 25', 'Zone 26', 'Zone 27', 'Zone 28', 'Zone 29', 'Zone 30', 'Zone 31', 'Zone 32', 'Zone 33', 'Zone 34', 'Zone 35', 'Zone 36', 'ZONE 1 DET', 'ZONE 2 DET', 'ZONE 3 DET', 'Analog 3V3', 'Silence Key', 'ADE IRQ', 'AC DETECT']
+[15:24:40.648] ERROR | [Attempt 1/1] Relay Failures: ['Relay 1 (K3)', 'Relay 2 (K5)', 'Relay 3 (K1)', 'Relay 4 (K4)', 'Relay 5 (K2)', 'Relay 6 (Q3)', 'Relay 7 (Q2)', 'Relay 8 (Q5)', 'Relay 9 (U6-18)', 'Relay 10 (Q6)', 'Relay 11 (U6-12)', 'Relay 12 (U6-13)', 'Relay 13 (U5-13)']
+[15:24:40.649] INFO  | Initiating retest (attempt 2/1): ['PERIPHERALS', 'DIGITAL_INPUTS', 'RELAYS']
+[15:24:41.986] INFO  | JIG acknowledged retest
+[15:24:41.986] ERROR | Test failed: Communication failed
+[15:24:41.987] ERROR | Test failed: Communication failed
+[15:26:37.887] SUCCESS | Start Programming Received - Beginning Test

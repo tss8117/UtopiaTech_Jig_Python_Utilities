@@ -1,0 +1,25 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32004935
+MAC ID      : C022F180168F
+Date        : 2026-02-16
+Start Time  : 14:12:47
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[14:12:49.369] Programming bootloader... | INFO
+[14:12:49.734] INFO  | Programming BOOTLOADER...
+[14:12:50.692] SUCCESS | Success programming BOOTLOADER
+[14:12:50.764] Resetting DUT... | INFO
+[14:12:52.862] Programming test firmware... | INFO
+[14:12:53.006] INFO  | Programming TEST...
+[14:12:56.446] SUCCESS | Success programming TEST
+[14:12:56.538] Resetting DUT... | INFO
+[14:20:18.187] INFO  | Programming BOOTLOADER...
+[14:20:38.306] ERROR | Failed programming BOOTLOADER: Programming timeout
+[14:20:47.022] INFO  | Serial Disconnected
+[14:20:47.905] SUCCESS | Serial Connected
+[14:20:55.575] SUCCESS | Start Programming Received - Beginning Test
+[14:20:55.577] INFO  | Serial No: 32004910

@@ -1,0 +1,27 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32005222
+MAC ID      : C022F18017AE
+Date        : 2026-02-21
+Start Time  : 17:32:49
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[17:32:50.586] INFO  | Programming bootloader...
+[17:32:50.589] INFO  | Programming bootloader...
+[17:32:50.894] INFO  | Programming BOOTLOADER...
+[17:32:50.940] INFO  | Programming BOOTLOADER...
+[17:32:51.894] SUCCESS | Success programming BOOTLOADER
+[17:32:51.896] SUCCESS | Success programming BOOTLOADER
+[17:32:51.918] INFO  | Programming test firmware...
+[17:32:51.969] INFO  | Programming TEST...
+[17:33:11.969] ERROR | Failed programming TEST: Programming timeout
+[17:33:12.092] ERROR | Test firmware programming failed after 2 attempts
+[17:33:12.092] WARNING | Test firmware programming failed, retry attempt 1/2
+[17:33:12.194] ERROR | Test failed: Test firmware programming failed after max retries
+[17:33:13.190] INFO  | Programming test firmware...
+[17:33:13.262] INFO  | Programming TEST...
+[17:33:16.769] SUCCESS | Success programming TEST
+[17:33:39.422] SUCCESS | Start Programming Received - Beginning Test

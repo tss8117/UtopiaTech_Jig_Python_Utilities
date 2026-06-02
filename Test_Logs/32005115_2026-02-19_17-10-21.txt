@@ -1,0 +1,96 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32005115
+MAC ID      : C022F1801743
+Date        : 2026-02-19
+Start Time  : 17:10:21
+Mode        : USER
+Utility Ver : 1.2.0
+================================================================================
+
+[17:10:21.679] INFO  | Programming bootloader...
+[17:10:22.794] INFO  | Programming BOOTLOADER...
+[17:10:23.031] SUCCESS | Success programming BOOTLOADER
+[17:10:23.097] INFO  | Programming test firmware...
+[17:10:23.102] INFO  | Programming TEST...
+[17:10:26.653] SUCCESS | Success programming TEST
+[17:12:08.298] INFO  | Results received: Clock=32786Hz, Peri=0x01F7, Dig=0x0000000FFFFFFFFF, Relay=0x0000
+
+--------------------------------------------------------------------------------
+TEST RESULTS (Combined Frame)
+--------------------------------------------------------------------------------
+[17:12:08.298] INFO  | Clock Frequency: 32786 Hz
+[17:12:08.298] TEST  | EEPROM........................ PASS
+[17:12:08.298] TEST  | RTC........................... PASS
+[17:12:08.299] TEST  | RTC Battery................... PASS
+[17:12:08.299] TEST  | Battery Voltage............... FAIL
+[17:12:08.299] TEST  | Temp. Sensor.................. PASS
+[17:12:08.299] TEST  | Smoke Zone.................... PASS
+[17:12:08.299] TEST  | GPIO.......................... PASS
+[17:12:08.299] TEST  | W5500......................... PASS
+[17:12:08.299] TEST  | Clock Frequency............... PASS
+[17:12:08.299] TEST  | Zone 1........................ PASS
+[17:12:08.299] TEST  | Zone 2........................ PASS
+[17:12:08.299] TEST  | Zone 3........................ PASS
+[17:12:08.299] TEST  | Zone 4........................ PASS
+[17:12:08.299] TEST  | Zone 5........................ PASS
+[17:12:08.299] TEST  | Zone 6........................ PASS
+[17:12:08.299] TEST  | Zone 7........................ PASS
+[17:12:08.299] TEST  | Zone 8........................ PASS
+[17:12:08.299] TEST  | Zone 9........................ PASS
+[17:12:08.299] TEST  | Zone 10....................... PASS
+[17:12:08.299] TEST  | Zone 11....................... PASS
+[17:12:08.299] TEST  | Zone 12....................... PASS
+[17:12:08.299] TEST  | Zone 13....................... PASS
+[17:12:08.299] TEST  | Zone 14....................... PASS
+[17:12:08.299] TEST  | Zone 15....................... PASS
+[17:12:08.299] TEST  | Zone 16....................... PASS
+[17:12:08.299] TEST  | Zone 17....................... PASS
+[17:12:08.299] TEST  | Zone 18....................... PASS
+[17:12:08.299] TEST  | Zone 19....................... PASS
+[17:12:08.300] TEST  | Zone 20....................... PASS
+[17:12:08.300] TEST  | Zone 21....................... PASS
+[17:12:08.300] TEST  | Zone 22....................... PASS
+[17:12:08.300] TEST  | Zone 23....................... PASS
+[17:12:08.300] TEST  | Zone 24....................... PASS
+[17:12:08.300] TEST  | Zone 25....................... PASS
+[17:12:08.300] TEST  | Zone 26....................... PASS
+[17:12:08.300] TEST  | Zone 27....................... PASS
+[17:12:08.300] TEST  | Zone 28....................... PASS
+[17:12:08.300] TEST  | Zone 29....................... PASS
+[17:12:08.300] TEST  | Zone 30....................... PASS
+[17:12:08.300] TEST  | Zone 31....................... PASS
+[17:12:08.300] TEST  | Zone 32....................... PASS
+[17:12:08.300] TEST  | Zone 33....................... PASS
+[17:12:08.300] TEST  | Zone 34....................... PASS
+[17:12:08.300] TEST  | Zone 35....................... PASS
+[17:12:08.300] TEST  | Zone 36....................... PASS
+[17:12:08.300] TEST  | ZONE 1 DET.................... FAIL
+[17:12:08.300] TEST  | ZONE 2 DET.................... FAIL
+[17:12:08.300] TEST  | ZONE 3 DET.................... FAIL
+[17:12:08.300] TEST  | Analog 3V3.................... FAIL
+[17:12:08.300] TEST  | Silence Key................... FAIL
+[17:12:08.300] TEST  | ADE IRQ....................... FAIL
+[17:12:08.300] TEST  | AC DETECT..................... FAIL
+[17:12:08.300] TEST  | Relay 1 (K3).................. FAIL
+[17:12:08.300] TEST  | Relay 2 (K5).................. FAIL
+[17:12:08.300] TEST  | Relay 3 (K1).................. FAIL
+[17:12:08.301] TEST  | Relay 4 (K4).................. FAIL
+[17:12:08.301] TEST  | Relay 5 (K2).................. FAIL
+[17:12:08.301] TEST  | Relay 6 (Q3).................. FAIL
+[17:12:08.301] TEST  | Relay 7 (Q2).................. FAIL
+[17:12:08.301] TEST  | Relay 8 (Q5).................. FAIL
+[17:12:08.301] TEST  | Relay 9 (U6-18)............... FAIL
+[17:12:08.301] TEST  | Relay 10 (Q6)................. FAIL
+[17:12:08.301] TEST  | Relay 11 (U6-12).............. FAIL
+[17:12:08.301] TEST  | Relay 12 (U6-13).............. FAIL
+[17:12:08.301] TEST  | Relay 13 (U5-13).............. FAIL
+[17:12:08.419] ERROR | [Attempt 1/1] Peripheral Failures: ['Battery Voltage']
+[17:12:08.421] ERROR | [Attempt 1/1] Digital Input Failures: ['ZONE 1 DET', 'ZONE 2 DET', 'ZONE 3 DET', 'Analog 3V3', 'Silence Key', 'ADE IRQ', 'AC DETECT']
+[17:12:08.422] ERROR | [Attempt 1/1] Relay Failures: ['Relay 1 (K3)', 'Relay 2 (K5)', 'Relay 3 (K1)', 'Relay 4 (K4)', 'Relay 5 (K2)', 'Relay 6 (Q3)', 'Relay 7 (Q2)', 'Relay 8 (Q5)', 'Relay 9 (U6-18)', 'Relay 10 (Q6)', 'Relay 11 (U6-12)', 'Relay 12 (U6-13)', 'Relay 13 (U5-13)']
+[17:12:08.424] INFO  | Initiating retest (attempt 2/1): ['PERIPHERALS', 'DIGITAL_INPUTS', 'RELAYS']
+[17:12:09.941] ERROR | Communication Failed (error: 1)
+[17:12:10.032] INFO  | JIG acknowledged retest
+[17:12:10.033] ERROR | Test failed: Communication failed
+[17:12:33.323] SUCCESS | Start Programming Received - Beginning Test

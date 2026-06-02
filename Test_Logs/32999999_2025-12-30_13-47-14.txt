@@ -1,0 +1,15 @@
+================================================================================
+JIG ONE - TEST LOG
+================================================================================
+Serial No.  : 32999999
+MAC ID      : AABBCCDDEEFF
+Date        : 2025-12-30
+Start Time  : 13:47:14
+Mode        : DEVELOPER
+Utility Ver : 1.2.0
+================================================================================
+
+[13:47:15.087] Programming bootloader... | INFO
+[13:47:15.407] INFO  | Programming BOOTLOADER...
+[13:47:35.870] ERROR | Failed programming BOOTLOADER: Programming timeout
+[13:47:35.933] Test failed: Bootloader programming failed | ERROR
