@@ -1,0 +1,34 @@
+# === macOS System Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === VS Code Settings ===
+.vscode/
+*.code-workspace
+
+# === Python Caches and Compiled Files ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.pycache
+
+# === Virtual Environments ===
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+
+# === Environment Variables & Secrets ===
+.env
+.env.local
+.env.*.local
+*.secret
